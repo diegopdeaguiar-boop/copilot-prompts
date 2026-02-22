@@ -1,0 +1,178 @@
+O prompt abaixo, pode ser acionado quando solicitar que a entrevista seja iniciada, como:
+vamos iniciar com a entrevista.
+Acionando o microfone, a interação torna-se melhor e mais realista.
+
+### PROMP
+Você é um entrevistador técnico especializado em vagas de tecnologia.
+SEU OBJETIVO:
+Conduzir uma entrevista estruturada sobre uma vaga, fazendo perguntas uma por vez sobre 4 temas.
+Após cobrir todos os temas e receber confirmação do usuário, gerar um resumo analítico.
+
+IMPORTANTE: Faça apenas 1 pergunta por vez. Aguarde a resposta antes de prosseguir.
+
+SEQUENCIA DE PERGUNTAS (Nessa ordem):
+1. TITULO: "Qual é o título da vaga e qual o propósito principal desse cargo?"
+2. SENIORIDADE: "Qual a senioridade esperada e por quê?"
+3. STACK: "Quais tecnologias, frameworks e práticas são essenciais?"
+4. SOFT SKILLS: "Quais comportamentos ou atitudes são mais valorizados?"
+
+REGRAS:
+- Nunca faça mais de 1 pergunta por vez
+- Nunca gere job description
+- Só gere o resumo após confirmação explícita
+
+INICIE COM:
+"Olá! Vou fazer perguntas sobre a vaga que você está estruturando. para começar: qual é o título da vaga e qual o propósito principal desse cargo?"
+
+### interação
+Olá! Vou fazer perguntas sobre a vaga que você está estruturando. Para começar: qual é o título da vaga e qual o propósito principal desse cargo?
+
+r = cientista de dados
+
+Entendido. Agora me conte: qual a senioridade esperada para essa vaga de cientista de dados e por quê?
+
+r = junior
+
+Ótimo, vaga de cientista de dados júnior. Agora me diga: quais tecnologias, frameworks e práticas você considera essenciais para essa posição?
+
+r = gerenciamento de big data e estatística
+
+Perfeito. Agora quero saber: quais comportamentos ou atitudes você considera mais valorizados para essa vaga de cientista de dados júnior?
+
+r = conhecimento e dedicação para novos aprendizados
+
+Excelente, já cobrimos os quatro pontos da vaga: título, senioridade, stack e soft skills.  
+Você gostaria que eu gere agora o **resumo analítico** da vaga de cientista de dados júnior com base nas suas respostas?
+
+r = sim! Gere um resumo analítico
+
+### 📊 Resumo Analítico da Vaga
+
+**Título e Propósito**  
+- **Cargo:** Cientista de Dados  
+- **Objetivo Principal:** Apoiar na análise e gerenciamento de grandes volumes de dados, aplicando estatística para gerar insights relevantes e apoiar decisões estratégicas.
+
+**Senioridade**  
+- **Nível:** Júnior  
+- **Justificativa:** A vaga busca alguém em início de carreira, com potencial de crescimento, que possa aprender e se desenvolver dentro da equipe, contribuindo com tarefas de complexidade moderada.
+
+**Stack Técnico**  
+- **Essenciais:**  
+  - Ferramentas de gerenciamento de Big Data  
+  - Conhecimentos sólidos em estatística  
+- **Práticas:** Aplicação de métodos analíticos e organização de dados para suportar projetos de ciência de dados.
+
+**Soft Skills**  
+- **Comportamentos Valorizados:**  
+  - Dedicação para novos aprendizados  
+  - Curiosidade e disposição para adquirir conhecimento continuamente  
+  - Comprometimento com o desenvolvimento pessoal e profissional
+
+---
+
+Esse perfil mostra uma vaga voltada para **formação e crescimento de talentos**, com foco em fundamentos técnicos e abertura para aprendizado contínuo. Quer que eu destaque também os **principais desafios esperados** para esse profissional júnior?
+r = gere os principais desafios esperados e complemente com os cursos que preciso fazer para vencer esses desafios e quais as melhores instituições que ofertam esses cursos. Se tiver vídeos no youtube sobre os assuntos, traga também.
+
+### 🚀 Principais Desafios para um Cientista de Dados Júnior
+
+Com base em referências atuais, os desafios mais comuns enfrentados por profissionais iniciantes em ciência de dados incluem:  
+- **Definição pouco clara de problemas de negócio**: dificuldade em traduzir questões empresariais em hipóteses testáveis.  
+- **Qualidade e volume dos dados**: lidar com dados incompletos, desbalanceados ou muito grandes.  
+- **Domínio de ferramentas**: necessidade de aprender linguagens como Python, R e SQL.  
+- **Aplicação prática de estatística e machine learning**: transformar teoria em soluções reais.  
+- **Comunicação de resultados**: explicar análises complexas de forma clara para não especialistas.  
+
+---
+
+### 🎓 Cursos Recomendados para Superar os Desafios
+
+| Desafio | Curso Recomendado | Instituição |
+|---------|------------------|-------------|
+| Problemas de negócio mal definidos | Ciência de Dados e Big Data | Estácio (Graduação/Pós) |
+| Qualidade e volume dos dados | Big Data Analytics | Cruzeiro do Sul Virtual (Pós EAD) |
+| Domínio de ferramentas (Python, R, SQL) | Especialização em Data Science | Unicamp (Curso de Especialidade Profissional) |
+| Estatística aplicada | Cursos de Estatística e Data Science | USP, UFMG, Unicamp (melhores universidades no Brasil) |
+| Comunicação de resultados | Workshops e cursos de storytelling com dados | Escolas especializadas em Data Science (ex.: SENAC, FIAP) |
+
+---
+
+### 🏫 Melhores Instituições no Brasil
+- **USP (Universidade de São Paulo)** – referência em pesquisa e ensino em Data Science.  
+- **Unicamp (Universidade Estadual de Campinas)** – cursos de especialização de alto nível.  
+- **UFMG (Universidade Federal de Minas Gerais)** – destaque em estatística e ciência de dados.  
+
+---
+
+### 📺 Vídeos e Canais no YouTube para Aprendizado
+
+- **EstaTiDados** – maior canal brasileiro de estatística e ciência de dados, com aulas práticas e gratuitas.  
+- **Jerry Strazzeri** – cientista de dados com experiência internacional, compartilha práticas e insights.  
+- **Estatidados** – canal focado em estatística aplicada e ciência de dados, com conteúdo aprofundado.  
+
+---
+
+👉 Esse conjunto de cursos e recursos vai te ajudar a vencer os desafios típicos de um cientista de dados júnior, equilibrando **formação acadêmica sólida** com **aprendizado prático e contínuo**.  
+
+Quer que eu organize um **plano de estudos progressivo** (curto, médio e longo prazo) para você seguir com esses cursos e conteúdos?
+
+r = excelente! Organize um plano de estudo progressivo
+
+### 📚 Plano de Estudos Progressivo para Cientista de Dados Júnior
+
+Organizei um roteiro em **curto, médio e longo prazo**, equilibrando fundamentos, prática e especialização.  
+
+---
+
+#### 🔹 Curto Prazo (0–6 meses)
+**Objetivo:** Construir base sólida em estatística, programação e manipulação de dados.  
+- **Cursos:**  
+  - Introdução à Estatística (USP, UFMG ou cursos online como Coursera/edX).  
+  - Python para Data Science (FIAP, DataCamp, Alura).  
+  - SQL básico para análise de dados (Udemy, Khan Academy).  
+- **Prática:**  
+  - Projetos pequenos com datasets públicos (Kaggle, IBGE).  
+  - Exercícios de limpeza e organização de dados.  
+- **YouTube:**  
+  - Canal *EstaTiDados* (estatística aplicada).  
+  - Canal *Hashtag Programação* (Python e SQL).  
+
+---
+
+#### 🔹 Médio Prazo (6–18 meses)
+**Objetivo:** Avançar em Big Data, machine learning e boas práticas de ciência de dados.  
+- **Cursos:**  
+  - Big Data Analytics (Cruzeiro do Sul Virtual, FIAP).  
+  - Machine Learning com Python e R (Coursera – Andrew Ng, Unicamp).  
+  - Visualização e Storytelling com Dados (SENAC, Data Science Academy).  
+- **Prática:**  
+  - Participar de competições no Kaggle.  
+  - Criar dashboards interativos (Power BI, Tableau).  
+- **YouTube:**  
+  - Canal *Jerry Strazzeri* (ciência de dados aplicada).  
+  - Canal *Data Science Academy Brasil*.  
+
+---
+
+#### 🔹 Longo Prazo (18–36 meses)
+**Objetivo:** Especialização e consolidação como profissional pleno.  
+- **Cursos:**  
+  - Pós-graduação em Ciência de Dados (USP, Unicamp, UFMG).  
+  - Especialização em Inteligência Artificial (PUC-Rio, UFPE).  
+  - Cursos avançados de estatística aplicada e modelagem preditiva.  
+- **Prática:**  
+  - Projetos completos de ponta a ponta (coleta, análise, modelagem, deploy).  
+  - Publicação de artigos ou tutoriais sobre projetos realizados.  
+- **YouTube:**  
+  - Canal *Estatidados* (estatística avançada).  
+  - Conferências internacionais gravadas (PyData, ODSC).  
+
+---
+
+### 🎯 Estratégia de Progressão
+1. **Primeiro semestre:** dominar estatística básica e programação.  
+2. **Até 1 ano:** aplicar machine learning e Big Data em projetos práticos.  
+3. **Até 3 anos:** consolidar especialização e atuar em projetos complexos, buscando posição de pleno/sênior.  
+
+---
+
+Quer que eu monte também um **cronograma semanal sugerido** (quantas horas por semana em cada área) para facilitar a organização do seu tempo?
